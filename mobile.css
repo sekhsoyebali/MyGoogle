@@ -1,0 +1,50 @@
+section .main .languages {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+section .main .buttons button {
+    margin: 0px 5px;
+    padding: 10px 15px;
+    color: #555;
+    font-size: 13px;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+    border: 1px solid transparent;
+    outline: none;
+}
+section header {
+    padding: 13px;
+}
+.main .SearchBox {
+    
+    width: 92%;
+}
+section .main .SearchBox .search {
+    
+    padding: 12px;
+    padding-left: 45px;
+    padding-right: 60px;
+}
+section footer .row2 ul li a {
+   
+    font-size: 14px;
+    
+    display: flex;
+}
+section footer p{
+    font-size: 15px;
+}
+section footer .row {
+    padding: 10px 25px;
+}
+.logo {
+    width: 225px;
+    height: 76px;
+}
+section .main .SearchBox {
+    position: relative;
+    width: 90%;
+}
